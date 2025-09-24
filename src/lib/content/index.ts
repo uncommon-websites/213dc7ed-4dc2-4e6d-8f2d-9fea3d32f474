@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "FitHub",
+	description: "Transform fragmented fitness routines into cohesive progress by centralizing workout planning, tracking, and nutrition in one intelligent platform",
 	image: "/og.png",
-	url: "https://example.com",
+	url: "https://fithub.com",
 	fontFamily: "Inter Variable"
 };
