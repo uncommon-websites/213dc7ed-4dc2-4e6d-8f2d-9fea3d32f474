@@ -26,10 +26,9 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Fitness that fits your life"
+	subtitle="Smarter workouts. Integrated health."
+	imageSrc="/generated/image-commercial-lifestyle-photograph-of-a-pro.webp"
 />
 
 <!-- Story Section -->
@@ -75,7 +74,6 @@
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
 	title="Backed by the best."
 	subtitle="Point Nine, TSIC and others"
@@ -97,7 +95,6 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
 	title="Ready to collaborate?"
 	subtitle="Let's create something amazing"
 	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
