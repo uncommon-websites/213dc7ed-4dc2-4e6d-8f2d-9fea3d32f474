@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Integration",
+			description: "Unifying fragmented fitness routines into cohesive progress through intelligent data synthesis."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Precision",
+			description: "Delivering accurate metrics and insights that empower evidence-based fitness decisions."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Progress",
+			description: "Transforming scattered workouts and nutrition tracking into measurable health outcomes."
 		}
 	];
 </script>
@@ -33,7 +33,6 @@
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
 		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
 		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
@@ -43,11 +42,10 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
 	subtitle="Your partners in innovation."
@@ -95,7 +93,12 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Transform your fitness"
+	subtitle="Join the movement"
+	description="Stop juggling multiple apps and spreadsheets. Join thousands of fitness enthusiasts who've unified their workout planning, performance tracking, and nutrition analysis with FitHub's intelligent platform."
+	imageSrc="/generated/image-photorealistic-medium-shot-of-a-professi.webp"
+	callsToAction={[
+		{ href: "/", label: "Start free trial", variant: "primary" },
+		{ href: "/", label: "View features", variant: "secondary" }
+	]}
 />
