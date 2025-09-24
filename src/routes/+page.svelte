@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+
+	// Icons
+	import IconBrain from "~icons/lucide/brain";
+	import IconApple from "~icons/lucide/apple";
+	import IconTrendingUp from "~icons/lucide/trending-up";
+	import IconCalendar from "~icons/lucide/calendar";
+	import IconUsers from "~icons/lucide/users";
+	import IconEye from "~icons/lucide/eye";
 </script>
 
 <Hero
@@ -54,24 +62,38 @@
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Everything you need in one powerful platform"
+	subtitle="From workout planning to nutritional analysis, FitHub transforms fragmented routines into cohesive progress that delivers real results."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "AI-optimized workout planning",
+			description: "Generate personalized 15-minute workouts that sync with your calendar. No more time commitment fears, just efficient results that fit your busy schedule.",
+			icon: IconBrain
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Real-time nutrition integration",
+			description: "See exactly how your meals impact workout performance with synchronized nutritional analysis. Unlike fragmented apps, everything connects seamlessly.",
+			icon: IconApple
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Comprehensive performance analytics",
+			description: "Track every metric that matters across strength, cardio, and recovery. Transform scattered data points into clear progress insights.",
+			icon: IconTrendingUp
+		},
+		{
+			title: "Smart calendar integration",
+			description: "Automatically schedule workouts around meetings and commitments. Your fitness routine adapts to your life, not the other way around.",
+			icon: IconCalendar
+		},
+		{
+			title: "Personal trainer collaboration",
+			description: "Share progress data and receive expert guidance remotely. Bridge the gap between independent training and professional coaching.",
+			icon: IconUsers
+		},
+		{
+			title: "Predictive health insights",
+			description: "Anticipate performance trends and prevent overtraining with advanced analytics. Make smarter decisions about your fitness journey.",
+			icon: IconEye
 		}
 	]}
 />
