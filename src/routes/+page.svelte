@@ -10,10 +10,10 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="One app for your entire fitness life"
+	subtitle="Plan workouts. Track performance. Manage nutrition."
+	imageSrc="/generated/image-professional-fitness-enthusiast-training.webp"
+	centered={false}
 />
 <LogoScroller label="" generating />
 
