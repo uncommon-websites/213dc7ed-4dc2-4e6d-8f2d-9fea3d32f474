@@ -98,4 +98,21 @@
 	]}
 />
 <AboutTeaser generating />
-<CallToAction generating />
+<CallToAction
+	title="Start seeing progress that makes sense"
+	subtitle="Join thousands of fitness enthusiasts"
+	description="Stop juggling multiple apps that don't work together. FitHub connects your training, nutrition, and performance data in one intelligent platform—so you can make smarter decisions and see faster results."
+	imageSrc="/generated/image-photorealistic-lifestyle-photo-of-a-happ.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Start your free trial",
+			variant: "primary"
+		},
+		{
+			href: "/demo",
+			label: "See how it works",
+			variant: "secondary"
+		}
+	]}
+/>
